@@ -1,4 +1,4 @@
-# Descrição de dados -----------------------------------------------------------------------------------------------------------------------
+# Descrição de dados - Estatística descritiva com dataset do R -----------------------------------------------------------------------------------------------------------------------
 
 ### Descrever valores de média, mediana, desvio padrão, valores máximos e mínimos.
 
