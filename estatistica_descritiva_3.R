@@ -51,10 +51,11 @@ ggplot(d, aes(x = feed, y = media_feed, fill = feed)) +
   geom_text(aes(x = feed,
                 label = round(media_feed)), 
                 size = 4, vjust = 0.03) +
-  scale_x_discrete(breaks = c(5, 6, 7, 8, 9),
-                   labels = c("Maio", "Junho", "Julho",
-                              "Agosto", "Setembro")) +
-  labs(x = "Meses", y = "Temperatura média (Fahrenheit)") +
+  #scale_x_discrete(breaks = c(casein, horsebean, linseed, 
+                              #meatmeal, soybean, sunflower),
+                   #labels = c("Caseína", "Feijão", "Linhaça",
+                              #"Almôndegas", "Soja", "Girassol")) +
+  labs(x = "Suplemento alimentar", y = "Peso (g)") +
   theme_ipsum_rc(base_size = 10) +
   theme(legend.position = "none")
 
