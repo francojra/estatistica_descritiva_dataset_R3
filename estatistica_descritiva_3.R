@@ -44,7 +44,7 @@ d
 # 5. Mudar nome dos eixos;
 # 6. Ordenar as barras da maior para menor.
 
-# Gráficos ---------------------------------------------------------------------------------------------------------------------------------
+# Gráfico ---------------------------------------------------------------------------------------------------------------------------------
 
 library(ggplot2) # Pacote para produzir os gráficos
 #install.packages("hrbrthemes")
@@ -60,9 +60,9 @@ ggplot(d, aes(x = feed, y = media_feed, fill = feed)) +
   scale_fill_manual(values = c("#1b9e77", "#d95f02", "#7570b3",
                                "#e7298a", "#66a61e", "#e6ab02")) +
   scale_x_discrete(limits = positions,
-                     breaks = c("casein", "horsebean", "linseed", 
+                   breaks = c("casein", "horsebean", "linseed", 
                               "meatmeal", "soybean", "sunflower"),
-                     labels = c("Caseína", "Feijão", "Linhaça",
+                   labels = c("Caseína", "Feijão", "Linhaça",
                               "Almôndegas", "Soja", "Girassol")) +
   labs(x = "Suplemento alimentar", y = "Peso (g)") +
   theme_ipsum_rc(base_size = 10) +
